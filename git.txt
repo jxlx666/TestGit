@@ -1,3 +1,9 @@
-mv1nPlXAywBDCdhxFc9QOVv6TBcQHLAXBQUAKTh3ie4fqSEOnWrPsnVkF
-yt0wAkJHweoExRJWWVwwCniKNROSdJzJXE6YVapYW7f+tRRXRFI4yn4Nj
-jZ0RiiqGRCTVzwComUcXB-eiFWRBY6JpSsCNkmIxL5KsRCo442djHhTZE
+git status	--查看仓库当前状态
+
+git add xxx.xxx	--
+
+git rm xxx.xxx	--
+
+git commit -m "xxx"	--
+
+git reset --hard HEAD^（commitId）	--回到上一版本（也可写版本号直接回到那一版本）
