@@ -1,9 +1,9 @@
 git status	--查看仓库当前状态
 
-git add xxx.xxx	--
+git add xxx.xxx	--新增
 
-git rm xxx.xxx	--
+git rm xxx.xxx	--删除
 
-git commit -m "xxx"	--
+git commit -m "xxx"	--提交
 
 git reset --hard HEAD^（commitId）	--回到上一版本（也可写版本号直接回到那一版本）
