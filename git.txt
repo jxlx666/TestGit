@@ -7,3 +7,14 @@ git rm xxx.xxx	--删除
 git commit -m "xxx"	--提交
 
 git reset --hard HEAD^（commitId）	--回到上一版本（也可写版本号直接回到那一版本）
+
+git reflog	--查看版本号
+
+git checkout -- xxx.xxx	--撤销对xxx的修改
+
+git branch fenzhi	--创建分支
+
+git checkout fenzhi	--切换到分支
+
+git checkout -b fenzhi	--创建并切换到分支
+
