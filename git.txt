@@ -4,6 +4,10 @@ git add xxx.xxx	--新增
 
 git rm xxx.xxx	--删除
 
+git reset HEAD	--撤销上一次add里面的全部
+
+git reset HEAD xxx.xxx --撤销某个文件
+
 git commit -m "xxx"	--提交
 
 git reset --hard HEAD^（commitId）	--回到上一版本（也可写版本号直接回到那一版本）
@@ -12,9 +16,37 @@ git reflog	--查看版本号
 
 git checkout -- xxx.xxx	--撤销对xxx的修改
 
+git branch -a	--查看分支
+
 git branch fenzhi	--创建分支
 
 git checkout fenzhi	--切换到分支
-
+	
 git checkout -b fenzhi	--创建并切换到分支
+
+git merge fzxx	--合并指定分支到当前分支
+
+git branch -d fzxx	--删除分支
+
+git remote -v	--查看远程库信息
+
+git push origin fzxx	--从本地推送到远程分支	
+
+git checkout -b fzxx origin/fzxx	--在本地创建和远程分支对应的分支
+
+git branch --set-upstream-to origin/fzxx fzxx	--建立本地分支和远程分支的关联
+
+git stash	--暂存当前工作
+
+git stash list	--暂存列表
+
+git stash pop	--恢复暂存工作并删除
+
+git stash apply	--恢复暂存工作
+
+git stash drop	--删除暂存
+
+git reset --hard origin/wechat_request_1.0	--更新到远程最新版本
+
+
 
