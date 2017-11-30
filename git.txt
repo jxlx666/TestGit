@@ -48,5 +48,6 @@ git stash drop	--删除暂存
 
 git reset --hard origin/wechat_request_1.0	--更新到远程最新版本
 
+git log --graph --all --decorate	--查看分支线
 
 
