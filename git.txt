@@ -50,4 +50,6 @@ git reset --hard origin/wechat_request_1.0	--更新到远程最新版本
 
 git log --graph --all --decorate	--查看分支线
 
+git fetch origin/fzxx	--取回远程分支的更新
+
 
